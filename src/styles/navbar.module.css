@@ -1,0 +1,60 @@
+.navbar {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    /* Add z-index to ensure it's above other content */
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-left: 2%;
+}
+
+.name {
+    margin: -7px;
+    padding: 0;
+    color: black;
+    padding-left: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    
+    /* Adjust the logo height as needed */
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-right: 2%;}
+
+
+
+.navItem {
+    text-decoration: none;
+    color: #000000;
+    margin: 0 10px;
+    cursor: pointer;
+    /* Add margin to separate the list items */
+
+    /* Hover styles */
+    transition: color 0.3s;
+    /* Smooth color transition on hover */
+}
+
+.navItem:hover {
+    color:#1a73e8;
+    /* Change the color when hovering */
+}
